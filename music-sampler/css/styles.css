@@ -1,0 +1,91 @@
+body {
+	background: #212121;
+	width: 85%;
+	margin: auto;
+}
+
+
+h1, h2, p, footer {
+	color: #9E9E9E;
+}
+
+a:link {
+	color: #7F1916;
+}
+
+a:visited {
+	color: #5D787F;
+}
+
+.photoCaption {
+	font-size: 10pt;
+}
+
+#band {
+width: 100%;
+}
+
+#allAlbums {
+ margin-bottom: 2%;	
+	float: right;
+	width: 40%;
+	margin-top: 80px;
+}
+
+#content {
+	float: left;
+	width: 55%;
+	padding: 0 2%;
+}
+
+#player {
+	float: left;
+	border: 3px solid #000;
+	border-radius: 10px;
+	padding: 5px;
+	margin-bottom: 50px;
+	background: #7F7C7B;
+}
+
+#player p {
+	color: #FFF8FB;
+}
+
+footer {
+	clear: right;
+	padding-top: 200px;
+}
+
+/* media queries */
+
+@media only screen and (max-width: 800px) {
+
+	body {
+		width: 100%;
+	}
+	
+	#allAlbums, #content, #player {
+		float: none;
+		width: 95%;
+		margin: auto;
+	}
+	
+	#allAlbums {
+		margin: 0 0 20px 0;
+		text-align: center;
+		width: 100%;
+}
+	
+	h2 {
+		text-align: center;
+	}
+	
+	footer {
+		padding: 25px;
+		text-align: center;
+	}
+	
+	
+	
+}
+
